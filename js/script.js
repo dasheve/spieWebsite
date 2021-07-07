@@ -3,8 +3,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
+            $('.navbar-brand').addClass("brand-scroll");
         } else {
             $('.navbar').removeClass("sticky");
+            $('.navbar-brand').removeClass("brand-scroll");
         }
     });
 
@@ -19,34 +21,6 @@ $(document).ready(function() {
     });
 
 
-    // Home Page typing texts
-    var typed = new Typed(".typing-head-1", {
-        strings: ["OPTICS"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-head-2", {
-        strings: ["PHOTONICS"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-head-3", {
-        strings: ["RESEARCH"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-head-4", {
-        strings: ["SCIENCE"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
 
     // Office Bearers Personal Social
 

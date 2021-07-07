@@ -8,7 +8,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 3rem;
 }
 
 body {
@@ -27,11 +27,11 @@ body {
 }
 
  ::-webkit-scrollbar-thumb {
-    background: rgba(220, 20, 60, 0.801);
+    background: #086972d2;
 }
 
  ::-webkit-scrollbar-thumb:hover {
-    background: crimson;
+    background: #086972;
 }
 
 
@@ -83,11 +83,17 @@ a:hover {
 }
 
 .sticky {
-    background-color: crimson;
+    background-color: #086972;
 }
 
 .navbar-brand {
     width: 10rem;
+    transition: 0.4s all;
+}
+
+.brand-scroll {
+    display: none;
+    transition: 0.4s all;
 }
 
 .fas.fa-bars {
@@ -155,8 +161,8 @@ a:hover {
 .button-container1 button {
     border-radius: 10px;
     padding: 0.5rem 1rem;
-    border: 2px solid crimson;
-    background-color: crimson;
+    border: 2px solid #086972;
+    background-color: #086972;
     transition: 0.3s all;
 }
 
@@ -184,11 +190,10 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-.intro-header .row .col-lg-4 p {
-    display: inline;
+.intro-header .row .col-lg-4 img {
+    width: 100%;
 }
 
 .typing-head-1,
@@ -206,7 +211,7 @@ a:hover {
 
 .dividing {
     height: 4px;
-    color: crimson;
+    color: #086972;
     opacity: 100%;
 }
 
@@ -259,7 +264,7 @@ a:hover {
     position: relative;
     bottom: 6.5rem;
     color: #fff;
-    background-color: crimson;
+    background-color: #086972;
     border-radius: 10px;
     width: max-content;
     margin-left: 1.8rem;
@@ -309,6 +314,25 @@ a:hover {
     font-family: "Ubuntu", sans-serif;
 }
 
+.fac {
+    position: relative;
+}
+
+#team .profile-link-sir {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    opacity: 0%;
+    transition: 0.5s all;
+    border-bottom: 2px solid none;
+    cursor: pointer;
+    border-spacing: 300px;
+}
+
+#team .profile-link-sir:hover {
+    border-bottom: 2px solid #fff;
+}
+
 #team img {
     width: 10rem;
     margin-bottom: 1rem;
@@ -350,8 +374,12 @@ a:hover {
 }
 
 #team .col-lg-3:hover {
-    background: crimson;
-    border-color: crimson;
+    background: #086972;
+    border-color: #086972;
+}
+
+#team .col-lg-3:hover .profile-link-sir {
+    opacity: 100%;
 }
 
 #team .col-lg-3:hover .personal-social {
@@ -405,7 +433,7 @@ a:hover {
 #contact .row .media .fab {
     display: inline-block;
     font-size: 1.6rem;
-    color: crimson;
+    color: #086972;
 }
 
 #contact .row .media .media-text {
@@ -444,7 +472,7 @@ a:hover {
     padding: 0.3rem 0.5rem;
     border-radius: 5px;
     font-family: "Poppins", sans-serif;
-    border: 2px solid crimson;
+    border: 2px solid #086972;
     font-size: 1rem;
 }
 
@@ -461,6 +489,18 @@ a:hover {
     width: 99%;
     height: 10rem;
     resize: none;
+}
+
+#contact form button {
+    background-color: #086972;
+    color: #fff;
+    transition: 0.5s all;
+    border: 2px solid #086972;
+}
+
+#contact form button:hover {
+    color: #086972;
+    background-color: cornsilk;
 }
 
 #contact form .btn {
@@ -532,6 +572,6 @@ a:hover {
     }
     .container-list {
         width: 100vw !important;
-        background-color: crimson;
+        background-color: #086972;
     }
 }
