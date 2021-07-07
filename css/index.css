@@ -491,21 +491,18 @@ a:hover {
     resize: none;
 }
 
-#contact form button {
-    background-color: #086972;
-    color: #fff;
-    transition: 0.5s all;
-    border: 2px solid #086972;
-}
-
-#contact form button:hover {
-    color: #086972;
-    background-color: cornsilk;
-}
-
 #contact form .btn {
     font-family: "Ubuntu", sans-serif;
     font-size: 1.3rem;
+    border: 2px solid #086972;
+    transition: 0.4s all;
+    background-color: #086972;
+    color: #fff;
+}
+
+#contact form .btn:hover {
+    background-color: cornsilk;
+    color: #086972;
 }
 
 
