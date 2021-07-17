@@ -20,6 +20,10 @@ $(document).ready(function() {
         $(".navbar").addClass("sticky");
     });
 
+    $(".button-container1 button").on("click", function(){
+        window.location = "https://spie.org/about-spie/about-the-society?SSO=1";
+    });
+
 
 
     // Office Bearers Personal Social

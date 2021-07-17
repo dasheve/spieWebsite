@@ -436,6 +436,11 @@ a:hover {
     color: #086972;
 }
 
+#contact .row .media .call{
+    font-size: 1.5rem;
+    color: #086972;
+}
+
 #contact .row .media .media-text {
     display: inline-block;
     margin: 0 2rem;
@@ -517,6 +522,7 @@ a:hover {
     font-family: "Ubuntu", sans-serif;
 }
 
+
 #footer .connect-icons {
     font-size: 1.5rem;
 }
@@ -524,6 +530,11 @@ a:hover {
 #footer .connect-icons i {
     margin: 2rem 1rem 0 1rem;
     cursor: pointer;
+}
+
+.connect-a{
+    color: rgba(255, 255, 255, 0.699) !important;
+    padding: 0.6rem 0rem;
 }
 
 #footer .copyright {
