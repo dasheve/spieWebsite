@@ -436,7 +436,7 @@ a:hover {
     color: #086972;
 }
 
-#contact .row .media .call{
+#contact .row .media .call {
     font-size: 1.5rem;
     color: #086972;
 }
@@ -522,7 +522,6 @@ a:hover {
     font-family: "Ubuntu", sans-serif;
 }
 
-
 #footer .connect-icons {
     font-size: 1.5rem;
 }
@@ -532,7 +531,7 @@ a:hover {
     cursor: pointer;
 }
 
-.connect-a{
+.connect-a {
     color: rgba(255, 255, 255, 0.699) !important;
     padding: 0.6rem 0rem;
 }
@@ -553,6 +552,7 @@ a:hover {
     html {
         scroll-behavior: smooth;
         overflow-x: hidden;
+        scroll-padding-top: 2rem;
     }
     .home {
         height: initial !important;
@@ -562,6 +562,9 @@ a:hover {
     }
     .container-common {
         padding: 0.5rem !important;
+    }
+    .navbar-collapse {
+        transition: 0.5s all;
     }
     #team .col-lg-3 {
         width: inherit !important
